@@ -25,7 +25,7 @@ function Cart() {
     
       // Configure Razorpay options
       const options = {
-        key: RAZORPAY_API, // Replace with your actual Razorpay key
+        key: `${import.meta.env.RAZORPAY_API}`, // Replace with your actual Razorpay key
         amount: totalCost *100, // Amount in paise (1 INR = 100 paise)
         handler: (response) => {
           // Handle successful payment response
