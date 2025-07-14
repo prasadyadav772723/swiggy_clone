@@ -2,7 +2,6 @@ import React from 'react'
 import { Routes,Route,BrowserRouter } from 'react-router-dom'
 import {Provider} from 'react-redux'
 import AppLayOut from './AppLayOut'
-import Home from './pages/home'
 import SwiggyCorporate from './pages/SwiggyCorporate'
 import Search from './pages/search'
 import Offers from './pages/Offers'
@@ -13,6 +12,7 @@ import RestoItemsSep from './pages/RestoItemsSep'
 import ErrorPage from './pages/ErrorPage'
 import store from './redux/CreateStore';
 import PaymentSuccess from './pages/PaymentSuccess'
+import Home from './pages/Home'
 
 
 
